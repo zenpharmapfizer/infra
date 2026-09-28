@@ -1,4 +1,5 @@
-# ZenPharma Dev Environment — managed via GitHub Actions CI/CD
+# ZenPharma Dev Environment — managed via GitHub Actions CI/CD 
+# Trigger the workflow by creating a PR to the master branch or pushing/merging to the master branch.
 
 locals {
   project = "pharma"
