@@ -31,8 +31,8 @@ module "eks" {
   kubernetes_version = "1.33"
   instance_types     = ["t3.medium"]
   min_size           = 1
-  max_size           = 3
-  desired_size       = 2
+  max_size           = 5
+  desired_size       = 4
 }
 
 module "rds" {
