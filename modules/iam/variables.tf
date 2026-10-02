@@ -27,3 +27,13 @@ variable "github_org" {
   description = "GitHub organization or username that owns frontend and backend"
   type        = string
 }
+
+variable "github_org_name" {
+  type        = string
+  description = "The text name of your GitHub Organization (e.g., my-company)"
+}
+
+variable "github_org_id" {
+  type        = string
+  description = "The numeric ID of your GitHub Organization (e.g., 12345678)"
+}
