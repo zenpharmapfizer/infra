@@ -74,6 +74,8 @@ module "iam" {
   oidc_provider_url = module.eks.cluster_oidc_issuer_url
   aws_account_id    = data.aws_caller_identity.current.account_id
   github_org        = var.github_org
+  github_org_name = var.github_org_name
+  github_org_id   = var.github_org_id
 }
 
 module "secrets_manager" {

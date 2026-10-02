@@ -13,5 +13,17 @@ variable "jwt_secret" {
 variable "github_org" {
   description = "GitHub username or organization that owns frontend and backend"
   type        = string
-  default     = "zenpharma"
+  default     = "zenpharmapfizer"
+}
+
+variable "github_org_name" {
+  description = "The text name of your GitHub Organization (e.g., my-company)"
+  type        = string
+  default     = "zenpharmapfizer"
+}
+
+variable "github_org_id" {
+  description = "The numeric ID of your GitHub Organization (e.g., 12345678)"
+  type        = string
+  default     = "324506266"
 }
